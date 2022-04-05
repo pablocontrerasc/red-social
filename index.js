@@ -16,4 +16,3 @@ mongoose.connect('mongodb://localhost:27017/red-social',
     });
 }).catch(err => console.log(err));
 
-app.get('/', (req, res) => res.send('Hello World!'))
